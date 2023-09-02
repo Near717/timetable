@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Timetable</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="hour-grid">
+        <script>
+            // Generate hours in 24-hour format using JavaScript
+            function generateHours() {
+                const hours = [];
+                for (let i = 0; i < 24; i++) {
+                    const hour = i.toString().padStart(2, '0') + ':00';
+                    hours.push(hour);
+                }
+                return hours;
+            }
+
+            // Get the hour grid element
+            const hourGrid = document.querySelector('.hour-grid');
+
+            // Generate and populate hours using JavaScript
+            const hours = generateHours();
+            hours.forEach(hour => {
+                const hourElement = document.createElement('div');
+                hourElement.classList.add('hour');
+
+                // Create an hour number element
+                const hourNumber = document.createElement('span');
+                hourNumber.textContent = hour;
+                hourElement.appendChild(hourNumber);
+
+                // Create an hour line element
+                const hourLine = document.createElement('div');
+                hourLine.classList.add('hour-line');
+                hourElement.appendChild(hourLine);
+
+                hourGrid.appendChild(hourElement);
+            });
+
+        </script>
+    </div>
+
+    <div class="week-view">
+        <script>
+            // Loop through the days of the week using JavaScript
+            const daysOfWeek = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+            daysOfWeek.forEach(day => {
+                const dayElement = document.createElement('div');
+                dayElement.id = day; // Set the ID to match the lowercase day name
+                dayElement.classList.add('day');
+                dayElement.innerHTML = `<p>${day}</p><div class='event-container'></div>`;
+                document.querySelector('.week-view').appendChild(dayElement);
+            });
+        </script>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="checkbox-container">
+        <input type="checkbox" id="hideWork">
+        <label class="checkbox-label" for="hideWork">Hide Work</label>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
