@@ -2,17 +2,17 @@
     "data": {
         "monday": [
             {
-                "title": "Work",
+                "title": "Away",
                 "start": "9:00",
-                "end": "17:30",
+                "end": "19:00",
                 "color": "#777777"
             }
         ],
         "tuesday": [
             {
-                "title": "Work",
+                "title": "Away",
                 "start": "9:00",
-                "end": "17:30",
+                "end": "19:00",
                 "color": "#777777"
             },
             {
@@ -24,37 +24,37 @@
         ],
         "wednesday": [
             {
-                "title": "Work",
+                "title": "Away",
                 "start": "9:00",
-                "end": "17:30",
+                "end": "19:00",
                 "color": "#777777"
             }
         ],
         "thursday": [
             {
-                "title": "Work",
+                "title": "Away",
                 "start": "9:00",
-                "end": "17:30",
+                "end": "19:00",
                 "color": "#777777"
             },
             {
                 "title": "Prog CR",
                 "start": "19:30",
-                "end": "21:00",
+                "end": "20:50",
                 "color": "#1c7e85"
             }
         ],
         "friday": [
             {
-                "title": "Work",
+                "title": "Away",
                 "start": "9:00",
-                "end": "17:30",
+                "end": "19:00",
                 "color": "#777777"
             },
             {
                 "title": "Prog CR",
                 "start": "19:30",
-                "end": "21:00",
+                "end": "20:50",
                 "color": "#1c7e85"
             }
         ],

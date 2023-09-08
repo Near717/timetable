@@ -74,18 +74,18 @@ fetch('data.json')
 
 
 // Get the checkbox element
-const hideWork = document.getElementById('hideWork');
+const hideAway = document.getElementById('hideAway');
 
 // Add a change event listener to the checkbox
-hideWork.addEventListener('change', () => {
-    // Get all "Work" events by their title
-    const workEvents = document.querySelectorAll('.event');
+hideAway.addEventListener('change', () => {
+    // Get all "Away" events by their title
+    const AwayEvents = document.querySelectorAll('.event');
     
-    // Loop through each "Work" event and toggle its visibility based on the checkbox state
-    workEvents.forEach(event => {
-        if (event.textContent.includes('Work')) {
+    // Loop through each "Away" event and toggle its visibility based on the checkbox state
+    AwayEvents.forEach(event => {
+        if (event.textContent.includes('Away')) {
             // Toggle the "display" property to show or hide the event based on checkbox state
-            event.style.display = hideWork.checked ? 'none' : 'block';
+            event.style.display = hideAway.checked ? 'none' : 'block';
         }
     });
 });
