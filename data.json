@@ -6,6 +6,12 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
+            },
+            {
+                "title": "Core ♿ DB",
+                "start": "21:15",
+                "end": "23:00",
+                "color": "#724e9b"
             }
         ],
         "tuesday": [
@@ -14,12 +20,6 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
-            },
-            {
-                "title": "Core ♿ DB",
-                "start": "22:40",
-                "end": "24:00",
-                "color": "#724e9b"
             }
         ],
         "wednesday": [
