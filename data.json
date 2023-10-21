@@ -25,7 +25,7 @@
                 "title": "Core DG",
                 "start": "20:00",
                 "end": "21:40",
-                "color": "#777777"
+                "color": "#4dacd8"
             }
         ],
         "wednesday": [
@@ -83,7 +83,7 @@
                 "title": "Core DG",
                 "start": "19:00",
                 "end": "21:00",
-                "color": "#724e9b"
+                "color": "#4dacd8"
             }
         ]
     }
