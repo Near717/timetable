@@ -17,7 +17,7 @@
             },
             {
                 "title": "Core DG",
-                "start": "20:00",
+                "start": "19:00",
                 "end": "21:40",
                 "color": "#4dacd8"
             }
@@ -36,12 +36,6 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
-            },
-            {
-                "title": "Prog GH",
-                "start": "19:30",
-                "end": "20:50",
-                "color": "#1c7e85"
             }
         ],
         "friday": [
@@ -50,12 +44,6 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
-            },
-            {
-                "title": "Prog GH",
-                "start": "19:30",
-                "end": "20:50",
-                "color": "#1c7e85"
             }
         ],
         "saturday": [
@@ -63,8 +51,8 @@
         "sunday": [
             {
                 "title": "Core DG",
-                "start": "19:00",
-                "end": "21:00",
+                "start": "17:00",
+                "end": "19:00",
                 "color": "#4dacd8"
             }
         ]
