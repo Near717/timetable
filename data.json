@@ -18,7 +18,7 @@
             {
                 "title": "Core DG",
                 "start": "19:00",
-                "end": "21:40",
+                "end": "21:00",
                 "color": "#4dacd8"
             }
         ],
@@ -36,6 +36,12 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
+            },
+            {
+                "title": "Core DB",
+                "start": "19:30",
+                "end": "21:00",
+                "color": "#4dacd8"
             }
         ],
         "friday": [
@@ -44,6 +50,12 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
+            },
+            {
+                "title": "Core DB",
+                "start": "19:30",
+                "end": "21:00",
+                "color": "#4dacd8"
             }
         ],
         "saturday": [
