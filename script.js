@@ -35,13 +35,13 @@ fetch('data.json')
         function calculateTopPosition(time) {
             // Split the time string into hours and minutes
             const [hours, minutes] = time.split(':').map(Number);
-            
+
             /* // Convert the time to minutes since midnight
             const totalTimeInMinutes = hours * 60 + minutes;
             // Calculate the top position as a percentage of the day height
             const topPercentage = (totalTimeInMinutes / (24 * 60)) * 100;
             return `${topPercentage}%`; */
-            
+
             // Convert the time to hours since midnight
             const totalTimeInHours = hours + minutes / 60;
             // Calculate the top position
@@ -86,7 +86,7 @@ const hideAway = document.getElementById('hideAway');
 hideAway.addEventListener('change', () => {
     // Get all "Away" events by their title
     const AwayEvents = document.querySelectorAll('.event');
-    
+
     // Loop through each "Away" event and toggle its visibility based on the checkbox state
     AwayEvents.forEach(event => {
         const eventTitle = event.textContent.toLowerCase();
