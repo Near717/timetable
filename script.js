@@ -22,6 +22,12 @@ fetch('data.json')
             eventElement.appendChild(titleElement);
             eventElement.appendChild(timeElement);
 
+            // Conditionally hide title text if event title is "away" or "sleep"
+            const lowerCaseTitle = event.title.toLowerCase();
+            if (lowerCaseTitle === "away" || lowerCaseTitle === "sleep") {
+                titleElement.style.display = 'none';
+            }
+
             return eventElement;
         }
 
@@ -83,7 +89,8 @@ hideAway.addEventListener('change', () => {
     
     // Loop through each "Away" event and toggle its visibility based on the checkbox state
     AwayEvents.forEach(event => {
-        if (event.textContent.includes('Away')) {
+        const eventTitle = event.textContent.toLowerCase();
+        if (eventTitle.includes('away') || eventTitle.includes('sleep')) {
             // Toggle the "display" property to show or hide the event based on checkbox state
             event.style.display = hideAway.checked ? 'none' : 'block';
         }
