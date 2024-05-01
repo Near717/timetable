@@ -17,7 +17,7 @@ body {
     border-left: 1px solid #3a3e41;
     border-right: 1px solid #3a3e41;
     color: #fff;
-    height: calc(34px + 30px * 24.6);
+    height: calc(34px + 30px * 24.55);
     overflow: hidden;
 }
 
@@ -30,7 +30,8 @@ body {
 
 .event {
     background-color: #007acc;
-    color: #fff;
+    color: black;
+    font-weight: bold;
     border-radius: 5px;
     position: sticky;
 }
