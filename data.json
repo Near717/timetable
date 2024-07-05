@@ -12,6 +12,12 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
+            },
+            {
+                "title": "Prog PB",
+                "start": "19:00",
+                "end": "21:00",
+                "color": "#f86d2c"
             }
         ],
         "tuesday": [
@@ -28,10 +34,10 @@
                 "color": "#777777"
             },
             {
-                "title": "Core DG",
-                "start": "19:00",
-                "end": "21:00",
-                "color": "#4dacd8"
+                "title": "Prog PB",
+                "start": "20:00",
+                "end": "22:00",
+                "color": "#f86d2c"
             }
         ],
         "wednesday": [
@@ -46,6 +52,12 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
+            },
+            {
+                "title": "Core DG",
+                "start": "19:30",
+                "end": "21:00",
+                "color": "#4dacd8"
             }
         ],
         "thursday": [
@@ -66,6 +78,12 @@
                 "start": "19:30",
                 "end": "21:00",
                 "color": "#724e9b"
+            },
+            {
+                "title": "Prog PB",
+                "start": "21:10",
+                "end": "23:10",
+                "color": "#f86d2c"
             }
         ],
         "friday": [
