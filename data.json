@@ -60,6 +60,12 @@
                 "start": "9:00",
                 "end": "19:00",
                 "color": "#777777"
+            },
+            {
+                "title": "Core DG",
+                "start": "19:30",
+                "end": "21:00",
+                "color": "#4dacd8"
             }
         ],
         "friday": [
@@ -96,12 +102,6 @@
                 "start": "3:00",
                 "end": "14:00",
                 "color": "#777777"
-            },
-            {
-                "title": "Core DG",
-                "start": "17:00",
-                "end": "19:00",
-                "color": "#4dacd8"
             }
         ]
     }
